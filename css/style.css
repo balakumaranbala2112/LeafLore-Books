@@ -1,0 +1,141 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Poppins:wght@400;600;700&display=swap");
+
+/* =============== COLOR PALETTE =============== */
+
+:root {
+  --background: #f5f7f8;
+  --text: #3c3b3b;
+  --accent: #6b9080;
+  --button: #a4c3b2;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background);
+  color: var(--text);
+  font-family: "Poppins", sans-serif;
+  scroll-margin-top: 20px;
+}
+
+/* =============== HEADER + NAV =============== */
+header {
+  width: 100%;
+  padding-top: 2rem;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 30px;
+  margin: 0 10% 60px 10%;
+  padding: 18px 20px;
+  background-color: var(--secondary);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--text);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.nav-li li a {
+  font-weight: 400;
+  color: var(--text);
+  text-decoration: none;
+}
+
+.login {
+  background-color: #0b050f;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* =============== HOME PAGE =============== */
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 3.75rem;
+  text-align: center;
+}
+
+.home-page h1 {
+  display: block;
+  color: var(--text);
+  font-size: 4.5rem;
+  font-weight: 700;
+  margin-top: 0;
+  padding: 10px 10% 20px;
+  line-height: 1.2;
+}
+
+.home-page p:nth-of-type(1) {
+  background-color: var(--primary);
+  color: var(--text);
+  font-size: 1.1rem;
+  padding: 10px 22px;
+  border-radius: 30px;
+}
+
+.home-page p:nth-of-type(2) {
+  color: var(--secondary);
+  margin: 0 0 50px 0;
+  font-size: 1rem;
+}
+
+.home-page p:nth-of-type(3) {
+  color: var(--secondary);
+  margin: 30px;
+  font-size: 1rem;
+}
+
+.home-page button {
+  background-color: #0b050f;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.home-page button:hover {
+  font-weight: bold;
+}
+
+.featured-books h2 {
+  margin: 30px;
+  padding: 10px 0 10px 10px;
+  font-size: 2rem;
+  font-style: initial;
+  border-left: 5px solid #000;
+}
+
+.book-card {
+  width: 200px;
+  height: 200px;
+  background-color: #0b050f;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+.book_category {
+  display: flex;
+  justify-content: space-evenly;
+}

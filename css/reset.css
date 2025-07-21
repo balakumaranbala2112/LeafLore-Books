@@ -1,0 +1,199 @@
+/* Universal Reset – Full Manual Control Across All Browsers */
+/* Based on Eric Meyer Reset + Extended Form & Base Reset */
+/* Version: Custom for Full UI Design Control */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Basic base layout */
+body {
+  line-height: 1;
+  background-color: #fff;
+  color: #000;
+  font-family: "Segoe UI", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Remove list styles */
+ol,
+ul {
+  list-style: none;
+}
+
+/* Remove quote styles */
+blockquote,
+q {
+  quotes: none;
+}
+blockquote::before,
+blockquote::after,
+q::before,
+q::after {
+  content: "";
+  content: none;
+}
+
+/* Table normalization */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Universal box-sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove link styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Image normalization */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Form & Button Reset */
+input,
+textarea,
+select,
+button {
+  all: unset;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  box-sizing: border-box;
+  appearance: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Checkbox & Radio Size */
+input[type="checkbox"],
+input[type="radio"] {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: middle;
+}
+
+/* Root utility variables (optional) */
+:root {
+  --primary-color: #1a73e8;
+  --secondary-color: #e8f0fe;
+  --font-base: "Segoe UI", sans-serif;
+  --spacing: 1rem;
+  --text-color: #000;
+  --bg-color: #fff;
+}

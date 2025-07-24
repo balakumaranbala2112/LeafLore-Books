@@ -1,0 +1,10 @@
+[
+  { "title": "Arts & Science", "image": "../assets/images/The-Secret.", "price": "₹350" },
+  { "title": "Engineering", "image": "assets/images/scroll-don.gif", "price": "₹500" },
+  { "title": "Medical", "image": "assets/images/scroll-don.gif", "price": "₹600" },
+  { "title": "Law", "image": "assets/images/scroll-don.gif", "price": "₹400" },
+  { "title": "Management", "image": "assets/images/scroll-don.gif", "price": "₹450" },
+  { "title": "Kids", "image": "assets/images/scroll-don.gif", "price": "₹250" },
+  { "title": "Novels", "image": "assets/images/scroll-don.gif", "price": "₹300" },
+  { "title": "Comics", "image": "assets/images/scroll-don.gif", "price": "₹220" }
+]

@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "title": "The Secret",
+    "author": "Rhonda Byrne",
+    "category": "new",
+    "price": 300,
+    "rating": 3.5,
+    "image": "./assets/images/The-Secret.jpeg"
+  },
+  {
+    "id": 2,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "category": "new",
+    "price": 350,
+    "rating": 4.8,
+    "image": "./assets/images/Atomic-Habits.jpg"
+  },
+  {
+    "id": 3,
+    "title": "The Psychology of Money",
+    "author": "Morgan Housel",
+    "category": "New Arrivals",
+    "price": 299,
+    "rating": 4.5,
+    "image": "./assets/images/Psychology-of-Money.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen",
+    "category": "Engineering",
+    "price": 750,
+    "rating": 4.6,
+    "image": "./assets/images/Intro-to-Algorithms.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "category": "Engineering",
+    "price": 540,
+    "rating": 4.7,
+    "image": "./assets/images/Clean-Code.jpg"
+  },
+  {
+    "id": 6,
+    "title": "You Don’t Know JS",
+    "author": "Kyle Simpson",
+    "category": "Engineering",
+    "price": 450,
+    "rating": 4.3,
+    "image": "./assets/images/You-Dont-Know-JS.jpg"
+  },
+  {
+    "id": 7,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "category": "Novels",
+    "price": 270,
+    "rating": 4.4,
+    "image": "./assets/images/The-Alchemist.jpg"
+  },
+  {
+    "id": 8,
+    "title": "1984",
+    "author": "George Orwell",
+    "category": "Novels",
+    "price": 250,
+    "rating": 4.8,
+    "image": "./assets/images/1984.jpg"
+  },
+  {
+    "id": 9,
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "category": "Novels",
+    "price": 310,
+    "rating": 4.7,
+    "image": "./assets/images/To-Kill-a-Mockingbird.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Diary of a Wimpy Kid",
+    "author": "Jeff Kinney",
+    "category": "Kids",
+    "price": 220,
+    "rating": 4.6,
+    "image": "./assets/images/Wimpy-Kid.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "category": "Kids",
+    "price": 400,
+    "rating": 4.9,
+    "image": "./assets/images/Harry-Potter-1.jpg"
+  },
+  {
+    "id": 12,
+    "title": "The Cat in the Hat",
+    "author": "Dr. Seuss",
+    "category": "Kids",
+    "price": 180,
+    "rating": 4.3,
+    "image": "./assets/images/Cat-in-Hat.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Good to Great",
+    "author": "Jim Collins",
+    "category": "Management",
+    "price": 420,
+    "rating": 4.4,
+    "image": "./assets/images/Good-to-Great.jpg"
+  },
+  {
+    "id": 14,
+    "title": "The Lean Startup",
+    "author": "Eric Ries",
+    "category": "Management",
+    "price": 390,
+    "rating": 4.5,
+    "image": "./assets/images/Lean-Startup.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "category": "Management",
+    "price": 350,
+    "rating": 4.2,
+    "image": "./assets/images/Zero-to-One.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "category": "New Arrivals",
+    "price": 360,
+    "rating": 4.6,
+    "image": "./assets/images/Deep-Work.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Rework",
+    "author": "Jason Fried",
+    "category": "Management",
+    "price": 300,
+    "rating": 4.1,
+    "image": "./assets/images/Rework.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Think and Grow Rich",
+    "author": "Napoleon Hill",
+    "category": "New Arrivals",
+    "price": 250,
+    "rating": 4.3,
+    "image": "./assets/images/Think-Grow-Rich.jpg"
+  },
+  {
+    "id": 19,
+    "title": "Start With Why",
+    "author": "Simon Sinek",
+    "category": "Management",
+    "price": 380,
+    "rating": 4.5,
+    "image": "./assets/images/Start-With-Why.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Charlotte's Web",
+    "author": "E. B. White",
+    "category": "Kids",
+    "price": 210,
+    "rating": 4.2,
+    "image": "./assets/images/Charlottes-Web.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "category": "Novels",
+    "price": 260,
+    "rating": 4.6,
+    "image": "./assets/images/Pride-and-Prejudice.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Dune",
+    "author": "Frank Herbert",
+    "category": "Novels",
+    "price": 420,
+    "rating": 4.5,
+    "image": "./assets/images/Dune.jpg"
+  },
+  {
+    "id": 23,
+    "title": "Cracking the Coding Interview",
+    "author": "Gayle Laakmann McDowell",
+    "category": "Engineering",
+    "price": 630,
+    "rating": 4.8,
+    "image": "./assets/images/Cracking-Coding-Interview.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Rich Dad Poor Dad",
+    "author": "Robert T. Kiyosaki",
+    "category": "New Arrivals",
+    "price": 340,
+    "rating": 4.4,
+    "image": "./assets/images/Rich-Dad-Poor-Dad.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Algorithms Unlocked",
+    "author": "Thomas H. Cormen",
+    "category": "Engineering",
+    "price": 480,
+    "rating": 4.1,
+    "image": "./assets/images/Algorithms-Unlocked.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Don't Make Me Think",
+    "author": "Steve Krug",
+    "category": "Engineering",
+    "price": 390,
+    "rating": 4.2,
+    "image": "./assets/images/Dont-Make-Me-Think.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Little Women",
+    "author": "Louisa May Alcott",
+    "category": "Novels",
+    "price": 310,
+    "rating": 4.3,
+    "image": "./assets/images/Little-Women.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Coding for Kids",
+    "author": "Adrienne B. Tacke",
+    "category": "Kids",
+    "price": 270,
+    "rating": 4.0,
+    "image": "./assets/images/Coding-for-Kids.jpg"
+  },
+  {
+    "id": 29,
+    "title": "The Goal",
+    "author": "Eliyahu M. Goldratt",
+    "category": "Management",
+    "price": 410,
+    "rating": 4.4,
+    "image": "./assets/images/The-Goal.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Design Patterns",
+    "author": "Erich Gamma",
+    "category": "Engineering",
+    "price": 640,
+    "rating": 4.7,
+    "image": "./assets/images/Design-Patterns.jpg"
+  }
+]

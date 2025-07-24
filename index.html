@@ -5,8 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>LeafLore</title>
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
+    <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 </head>
 
@@ -17,9 +18,9 @@
                 <h1>LeafLore</h1>
             </div>
             <ul class="nav-list">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="pages/shop.html">Shop</a></li>
-                <li><a href="pages/about.html">about Us</a></li>
+                <li><a href="pages/about.html">About Us</a></li>
                 <li><a href="pages/contact.html">Contact</a></li>
             </ul>
             <div class="login">
@@ -29,103 +30,48 @@
     </header>
     <main>
         <section class="home-page">
-            <p>For curious minds and passionate readers</p>
-            <h1>Discover Books That Spark Imagination, Knowledge, and Growth</h1>
-            <p>
+            <p class="eyebrow-text">For curious minds and passionate readers</p>
+            <h1 class="hero-heading">Discover Books That Spark Imagination, Knowledge, and Growth</h1>
+            <p class="hero-subtext">
                 Browse our curated collection and find your next favorite story today
             </p>
-            <button>Start Reading Now</button>
-            <p>No sign-up required • New books added weekly</p>
+            <button class="cta-button">Start Reading Now</button>
+            <p class="cta-subtext">No sign-up required • New books added weekly</p>
         </section>
 
-        <section class="featured-books">
-            <h2>Featured Books</h2>
-            <div class="book_category">
-                <div class="book-card book1">
-                    <div>
-                        <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                    </div>
-                    <div>
-                        <p>Arts & Science</p>
-                    </div>
-                </div>
-                <div class="book-card book1">
-                    <div>
-                        <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                    </div>
-                    <div>
-                        <p>Arts & Science</p>
-                    </div>
-                </div>
-                <div class="book-card book1">
-                    <div>
-                        <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                    </div>
-                    <div>
-                        <p>Arts & Science</p>
-                    </div>
-                </div>
-                <div class="book-card book1">
-                    <div>
-                        <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                    </div>
-                    <div>
-                        <p>Arts & Science</p>
-                    </div>
-                </div>
-                <div class="book-card book1">
-                    <div>
-                        <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                    </div>
-                    <div>
-                        <p>Arts & Science</p>
-                    </div>
-                </div>
+        <section class="bestsellers">
+
+            <h2 class="bestsellers__title">Bestselling Books</h2>
+            <div class="tab">
+                <button class="tab_btn" data-tab="all">All</button>
+                <button class="tab_btn active" data-tab="new">New Arrivals</button>
+                <button class="tab_btn" data-tab="engineering">Engineering</button>
+                <button class="tab_btn" data-tab="novels">Novels</button>
+                <button class="tab_btn" data-tab="kids">Kids</button>
+                <button class="tab_btn" data-tab="management">Management</button>
+            </div>
+
+            <div id="tab-content" class="tab-books">
+                <!-- Book cards will be loaded here -->
+
             </div>
         </section>
-        <section>
-            <h3>Bestselling Books</h3>
-            <div class="tabContainer">
-                <div class="tab">
-                    <button>developer</button>
-                    <button>Romance</button>
-                    <button>starred</button>
-                </div>
-                <div class="tab_contents">
-                    <div class="dev_contents">
-                        <div class="book-card book1">
-                            <div>
-                                <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                            </div>
-                            <div>
-                                <p>Arts & Science</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dev_contents">
-                        <div class="book-card book1">
-                            <div>
-                                <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                            </div>
-                            <div>
-                                <p>Arts & Science</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="dev_contents">
-                        <div class="book-card book1">
-                            <div>
-                                <img src="./assets/images/scroll-don.gif" alt="scfasf" width="90" />
-                            </div>
-                            <div>
-                                <p>Arts & Science</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+        <!--         <section class="book__categories">
+            <h2>Browse by Category</h2>
+
+            <div class="view-more-container">
+                <button id="view-all-btn">All Categories >></button>
             </div>
+            <div class="book_category" id="category-container">
+                <!-- JS will inject cards here -->
+        </div>
         </section>
     </main>
+
+    <script src="./js/main.js"></script>
+    <script src="./js/categories.js"></script>
+    <script src="./js/bestsellers-tab.js"></script>
 </body>
 
 </html>
